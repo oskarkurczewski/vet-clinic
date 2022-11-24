@@ -1,0 +1,59 @@
+.about-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   // height: 60vw;
+   background-color: rgb(230, 230, 230);
+   padding-top: 70px;
+
+   .about-us {
+      margin-left: 5%;
+      width: 512px;
+      text-align: justify;
+   
+      h1 {
+         text-align: center;
+      }
+
+      img {
+         border: 6px solid rgb(44, 158, 69);
+      }
+   }
+
+   .our-doctors {
+      display: flex;
+      flex-direction: column;
+
+      .doctors {
+         display: flex;
+         justify-content: space-evenly;
+         width: 900px;
+         text-align: center;   
+
+         .doctor {
+            max-width: 310px;
+
+            img {
+               border: 6px solid rgb(44, 158, 69);
+               border-radius: 50%;
+            }
+   
+            p {
+               margin-top: 5px;
+               font-size: 2rem;
+               font-weight: bold;
+            }
+   
+            .desc {
+               text-align: justify;
+               font-size: 1rem;
+               font-weight: normal;
+            }
+         }
+
+         
+      
+      }
+   }
+   
+}

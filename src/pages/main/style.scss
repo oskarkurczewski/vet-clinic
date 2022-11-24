@@ -1,0 +1,42 @@
+.mainpage-container {
+   display: flex;
+   flex-direction: column;
+   height: 40vw;
+   background-image: url(../../../public/puppic.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   .text-container {
+      margin-left: 17%;
+      text-align: left;
+
+      h1 {
+         margin-bottom: 0px;
+         margin-block-end: 0;
+         margin-block-start: 20px;
+         font-size: 8rem;
+      }
+      p {
+         margin-top: -30px;
+         margin-left: 10px;
+         font-weight: bold;
+         font-size: 2rem;
+      }
+   }
+
+   .opening-hours {
+      align-self: center;
+      text-align: left;
+      margin-right: 45%;
+      margin-top: 6%;
+
+      h1 {
+         margin-bottom: -28px;
+         font-size: 3rem;
+      }
+      p {
+         font-size: 1.5rem;
+      }
+   }
+   
+}
